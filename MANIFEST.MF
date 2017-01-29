@@ -1,0 +1,6 @@
+Premain-Class: de.usu.jmx.agent.JMXAgent
+Agent-Class: de.usu.jmx.agent.JMXAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Can-Set-Native-Method-Prefix: true
+Boot-Class-Path: ../modules/system/layers/base/org/javassist/main/javassist-3.18.1.GA-redhat-2.jar;../modules/system/layers/base/org/apache/cxf/impl/main/cxf-rt-transports-jms-3.1.4.redhat-1.jar;../modules/system/layers/base/org/apache/cxf/main/cxf-core-3.1.4.redhat-1.jar
